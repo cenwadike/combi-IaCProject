@@ -1,0 +1,14 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdacityIaCProject"
+    },
+    {
+        "ParameterKey": "Instance",
+        "ParameterValue": "t3.small"
+    },
+    {
+        "ParameterKey": "AmiImageId",
+        "ParameterValue": "ami-0b30dcba97e09cec8"
+    }
+]
