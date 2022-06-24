@@ -43,7 +43,7 @@ Resources:
             Resource:
               - arn:aws:s3:::udagram/*
       Roles:
-        - Ref: S3ReadOnlyEC2
+        - Ref: UdacityS3ReadOnlyEC2
 
   ProfileWithRolesForOurApp:
     Type: AWS::IAM::InstanceProfile
