@@ -2,18 +2,14 @@
 
 This folder provides the code to - Deploy a high-availability web app using CloudFormation. This folder contains the following files:
 
-#### network.yml
+#### infra.yml
 
 The YML file contains CloudFormation code using this YAML template for building the cloud infrastructure, as required for the project.
 
-#### network-param.json
+#### infra-param.json
 
 The JSON file contains parameters for network infrastructure configuration.
 
-#### server.yml
+#### laod balancer url:
 
-The YML file contains CloudFormation code using this YAML template for building the cloud servers, as required for the project.
-
-#### network-param.json
-
-The JSON file contains parameters for server infrastructure configuration.
+http://udaci-applo-166l93ugyjvjy-484863895.us-east-1.elb.amazonaws.com/
